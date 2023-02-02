@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Sa02Poo.RegraDeNegocio
 {
-    internal class Aplicativo2RN
+    public class Aplicativo2RN
     {
+        public int CalcularAno(int anoAtual, int anoLancamento)
+        {
+            return anoAtual - anoLancamento;
+        }
     }
 }
