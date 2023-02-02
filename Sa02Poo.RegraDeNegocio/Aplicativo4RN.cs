@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Sa02Poo.RegraDeNegocio
 {
-    internal class Aplicativo4RN
+    public class Aplicativo4RN
     {
+        public decimal DivividirClientes(decimal clientes)
+        {
+            return 5000 / clientes;
+        }
     }
 }
