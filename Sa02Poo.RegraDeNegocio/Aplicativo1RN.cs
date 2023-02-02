@@ -9,7 +9,7 @@ namespace Sa02Poo.RegraDeNegocio
 {
     public class Aplicativo1RN
     {
-        public double CalcularSoma(double v1 double v2)
+        public double CalcularSoma(double v1, double v2)
         {
             return v1 + v2;
         }

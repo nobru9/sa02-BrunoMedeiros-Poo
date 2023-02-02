@@ -8,9 +8,9 @@ namespace Sa02Poo.RegraDeNegocio
 {
     public class Aplicativo2RN
     {
-        public int CalcularAno(int anoAtual, int anoLancamento)
+        public int CalcularAno(int anoAtual)
         {
-            return anoAtual - anoLancamento;
+            return anoAtual - 1968;
         }
     }
 }

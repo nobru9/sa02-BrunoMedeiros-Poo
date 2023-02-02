@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sa02Poo.RegraDeNegocio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,11 +24,11 @@ namespace Sa02Poo.Aplicativo1
                     Console.WriteLine("Digite o valor do segundo avião");
                     var valor2 = Console.ReadLine();
 
-                    Aplicativo1RN abo = new Aplicativo1RN();
+                    Aplicativo1RN rn1 = new Aplicativo1RN();
                     double v1, v2;
                     v1 = double.Parse(valor1);
                     v2 = double.Parse(valor2);
-                    var resposta = abo.CalcularSoma(v1, v2);
+                    var resposta = rn1.CalcularSoma(v1, v2);
                     Console.WriteLine($"O valor total a ser pago será de: R${resposta}");
 
                     break;

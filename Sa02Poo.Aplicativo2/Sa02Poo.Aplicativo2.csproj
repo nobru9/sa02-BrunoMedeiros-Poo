@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9AAD41CB-86E0-4BDF-A53B-0C9047615037}</ProjectGuid>
+    <ProjectGuid>{DDB389D7-9662-47DF-B286-55CB97FC4360}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Sa02Poo.Aplicativo1</RootNamespace>
-    <AssemblyName>Sa02Poo.Aplicativo1</AssemblyName>
+    <RootNamespace>Sa02Poo.Aplicativo2</RootNamespace>
+    <AssemblyName>Sa02Poo.Aplicativo2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
