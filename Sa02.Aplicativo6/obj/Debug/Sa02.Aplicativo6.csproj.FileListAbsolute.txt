@@ -1,0 +1,3 @@
+C:\Users\juanb\source\repos\Sa02Poo\Sa02.Aplicativo6\obj\Debug\Sa02.Aplicativo6.csproj.AssemblyReference.cache
+C:\Users\juanb\source\repos\Sa02Poo\Sa02.Aplicativo6\obj\Debug\Sa02.Aplicativo6.csproj.SuggestedBindingRedirects.cache
+C:\Users\juanb\source\repos\Sa02Poo\Sa02.Aplicativo6\obj\Debug\Sa02.Aplicativo6.csproj.CoreCompileInputs.cache

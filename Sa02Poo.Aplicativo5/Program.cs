@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Sa02Poo.Aplicativo5
 {
+    
     internal class Program
     {
         static void Main(string[] args)
