@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sa02Poo.Aplicativo5", "Sa02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sa02Poo.Aplicativo6", "Sa02Poo.Aplicativo6\Sa02Poo.Aplicativo6.csproj", "{EAC5AD56-D534-4340-9B12-58EF249C1060}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sa02Poo.Aplicativo7", "Sa02Poo.Aplicativo7\Sa02Poo.Aplicativo7.csproj", "{3B856813-4876-4DED-80F4-8A37E0423CF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{EAC5AD56-D534-4340-9B12-58EF249C1060}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAC5AD56-D534-4340-9B12-58EF249C1060}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAC5AD56-D534-4340-9B12-58EF249C1060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B856813-4876-4DED-80F4-8A37E0423CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B856813-4876-4DED-80F4-8A37E0423CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B856813-4876-4DED-80F4-8A37E0423CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B856813-4876-4DED-80F4-8A37E0423CF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

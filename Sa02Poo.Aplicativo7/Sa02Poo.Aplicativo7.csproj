@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E4C3BE20-53D3-4B7C-BCA9-B8B06BF19DDA}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sa02Poo.RegraDeNegocio</RootNamespace>
-    <AssemblyName>Sa02Poo.RegraDeNegocio</AssemblyName>
+    <ProjectGuid>{3B856813-4876-4DED-80F4-8A37E0423CF9}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Sa02Poo.Aplicativo7</RootNamespace>
+    <AssemblyName>Sa02Poo.Aplicativo7</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,14 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aplicativo1RN.cs" />
-    <Compile Include="Aplicativo2RN.cs" />
-    <Compile Include="Aplicativo3RN.cs" />
-    <Compile Include="Aplicativo4RN.cs" />
-    <Compile Include="Aplicativo5RN.cs" />
-    <Compile Include="Aplicativo6RN.cs" />
-    <Compile Include="Aplicativo7RN.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sa02Poo.RegraDeNegocio\Sa02Poo.RegraDeNegocio.csproj">
+      <Project>{e4c3be20-53d3-4b7c-bca9-b8b06bf19dda}</Project>
+      <Name>Sa02Poo.RegraDeNegocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
