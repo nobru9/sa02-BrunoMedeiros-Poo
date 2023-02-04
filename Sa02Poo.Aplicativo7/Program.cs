@@ -75,7 +75,7 @@ namespace Sa02Poo.Aplicativo7
                     Console.WriteLine("Informe o valor da quarta peça: ");
                     double peca4 = double.Parse(Console.ReadLine());
 
-                    var total = peca1 + peca2 + peca3 + peca4;
+                    var total = peca1 + peca2 + peca3 + peca4;  
 
                     Console.WriteLine($"O valor total a ser pago pelas peças será de: R${total}");
                     Console.ReadLine();
